@@ -1,0 +1,56 @@
+.scores-order {
+  display: grid;
+  grid-template-rows: max-content;
+  width: max-content;
+  align-items: center;
+  margin-left: auto;
+}
+
+.order-btn {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f50b9c;
+  color: white;
+  font-family: "VT323";
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 16rem);
+  grid-template-rows: repeat(2, 24rem);
+  column-gap: 3rem;
+  row-gap: 1.4rem;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+li {
+  background-color: rgb(66, 66, 66, 50%);
+  list-style: none;
+  border-radius: 14px;
+}
+
+.emoji-icon {
+  font-size: 1.4rem;
+}
+
+.card-country {
+  text-align: start;
+  padding: 0.4rem 0 0.4rem 0.8rem;
+  font-size: 1.6rem;
+}
+
+.card-country,
+.scores {
+  border-bottom: 1px solid rgb(248, 248, 248, 60%);
+  color: #41e19a;
+}
+
+.scores {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0.8rem 0 0.8rem;
+  text-transform: uppercase;
+}

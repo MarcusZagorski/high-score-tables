@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  background-image: url(/src/assets/unsplash_m3hn2Kn5Bns.png);
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  margin: 4rem 0;
+}
+
+.container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+/* Project Title and Animation */
+/* .project-title {
+  text-align: center;
+  margin: 2.4rem 0;
+  color: #f50b9c;
+  text-shadow: 3px 3px 4px black;
+} */
+
+.project-title {
+  line-height: 1.2em;
+  display: inline-grid;
+  text-align: center;
+  margin: 2.4rem 0;
+  color: #f50b9c;
+  text-shadow: 3px 3px 4px black;
+}
+.project-title:before,
+.project-title:after {
+  content: "HIGH SCORES TABLE";
+  grid-area: 1/1;
+  -webkit-mask: linear-gradient(90deg, #f50b9c 50%, #0000 0) 0 50%/2ch 100%;
+  color: #0000;
+  text-shadow: 0 0 0 #f50b9c, 0 calc(var(--s, 1) * 1.2em) 0 #f50b9c;
+  animation: l15 2s infinite;
+}
+.project-title:after {
+  -webkit-mask-position: 1ch 50%;
+  --s: -1.4;
+}
+@keyframes l15 {
+  80%,
+  100% {
+    text-shadow: 0 calc(var(--s, 1) * -1.2em) 0 #51d598, 0 0 0 #51d598;
+  }
+}
+/* ----------------- */
