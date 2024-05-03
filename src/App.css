@@ -22,13 +22,6 @@ body {
 }
 
 /* Project Title and Animation */
-/* .project-title {
-  text-align: center;
-  margin: 2.4rem 0;
-  color: #f50b9c;
-  text-shadow: 3px 3px 4px black;
-} */
-
 .project-title {
   line-height: 1.2em;
   display: inline-grid;
