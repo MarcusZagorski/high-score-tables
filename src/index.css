@@ -1,7 +1,7 @@
 /* HTML: <div class="loader"></div> */
 
 /* HTML: <div class="loader"></div> */
-.loader {
+/* .loader {
   --w: 10ch;
   font-weight: bold;
   font-family: monospace;
@@ -163,4 +163,4 @@
       calc(-69 * var(--w)) 0 #000, calc(-79 * var(--w)) 0 #000,
       calc(-89 * var(--w)) 0 #000, calc(-99 * var(--w)) 0 #000;
   }
-}
+} */
