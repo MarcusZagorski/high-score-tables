@@ -116,6 +116,7 @@
   .cards-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 24rem);
     column-gap: 3rem;
     row-gap: 1.4rem;
     justify-content: center;
