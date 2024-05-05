@@ -13,6 +13,7 @@
   background-color: #f50b9c;
   color: white;
   font-family: "VT323";
+  cursor: pointer;
 }
 
 .cards-container {
